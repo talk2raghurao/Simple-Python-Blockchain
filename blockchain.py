@@ -29,7 +29,7 @@ class Block:
 
 class Blockchain:
 
-    diff = 20
+    diff = 10
     maxNonce = 2**32
     target = 2 ** (256-diff)
 
